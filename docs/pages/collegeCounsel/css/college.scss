@@ -1,0 +1,332 @@
+.college-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 var(--p40);
+  height: 18.75rem;
+  background-image: url(../img/banner_college.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .college-title{
+    font-family: RobotoSlab, RobotoSlab;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 75px;
+    color: #FFFFFF;
+  }
+
+  .contact-us{
+    width: 26%;
+    height: var(--p60);
+    background: #1390CF;
+    border-radius: 30px;
+    border: none;
+    font-family: Roboto, Roboto;
+    font-weight: 900;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+}
+
+.admissions-box{
+  padding: var(--p60) var(--p40) var(--p80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .admissions-img{
+    // flex: 1;
+    width: 40%;
+  }
+  .admissions-right{
+    margin-left: var(--p60);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .right-title{
+      line-height: 60px;
+      font-weight: 900;
+      font-size: 46px;
+      color: #000000;
+    }
+    .right-item{
+      display: flex;
+      align-items: flex-start;
+      margin-top: 0.5rem;
+      .item-point{
+        flex-shrink: 0;
+        margin-top: 8px;
+        margin-right: 10px;
+        width: 10px;
+        height: 10px;
+        background: #000000;
+      }
+      .item-txt{
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+  }
+}
+.report-box{
+  .report-title{
+    padding: 0 var(--p40);
+    line-height: 54px;
+    margin-bottom: var(--p40);
+    font-weight: 900;
+    text-align: center;
+    font-size: 46px;
+  }
+  .report-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 8%;
+    padding: var(--p60) 0;
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+  }
+  .report-item{
+    text-align: center;
+    .item-top{
+      font-family: RobotoSlab, RobotoSlab;
+      font-weight: 500;
+      font-size: 40px;
+      color: #000000;
+    }
+    .item-center{
+      margin-top: 0.5rem;
+      font-size: 24px;
+      color: #000000;
+      .left-txt{
+        font-weight: 900;
+      }
+    }
+    .item-img-box{
+      margin-top: 0.5rem;
+      .item-img{
+        width: 45px;
+      }
+    }
+  }
+}
+.admitted-students{
+  padding: 3.75rem 0 var(--p80);
+  .students-title{
+    padding: 0 var(--p40);
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 3.1rem;
+  }
+  .admitted-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 var(--p40);
+
+    .bottom-item{
+      margin-top: var(--p60);
+      text-align: center;
+      .item-1{
+        line-height: 52px;
+        font-family: Roboto-Regular;
+        font-weight: normal;
+        font-size: 40px;
+        color: #000000;
+      }
+      .item-2{
+        margin-top: 10px;
+        font-family: Roboto-Regular;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+  }
+}
+.thinking-about{
+  padding: var(--p60) 0 0;
+  background: #F5F7FA;
+
+  .thinking-box{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: var(--p40) auto 0;
+    padding: var(--p40) 4.06rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    .thinking-img{
+      width: 40%;
+    }
+    .thinking-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 8%;
+      .title-1{
+        font-family: Roboto-Medium;
+        font-weight: bold;
+        font-size: 40px;
+        color: #000000;
+      }
+      .title-2 {
+        margin-top: 0.62rem;
+        font-family: Roboto-Regular;
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+      }
+      .rsvp-btn{
+        margin-top: 2rem;
+        width: 85%;
+        height: 3.75rem;
+        background: #1390CF;
+        border-radius: 30px;
+        border: none;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+.our-secret{
+  padding: var(--p40) var(--p40) var(--p80);
+  .secret-box{
+    + .secret-box{
+      border-top: 1px solid #b9b9b9;
+      padding-top: var(--p40);
+    }
+    margin-top: var(--p40);
+    display: flex;
+    align-items: center;
+    .secret-img{
+      width: 45%;
+    }
+    .secret-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: var(--p40);
+      color: #000000;
+      .title-1{
+        line-height: 39px;
+        font-family: Roboto-Medium;
+        font-size: 30px;
+      }
+      .title-2{
+        font-family: Roboto-Medium;
+        margin-top: 0.5rem;
+        font-weight: 600;
+        font-size: 18px;
+      }
+      .title-3{
+        font-weight: 400;
+        margin-top: 5px;
+        font-size: 18px;
+      }
+      .title-items{
+        margin-top: 0.5rem;
+        .items-txt{
+          display: flex;
+          align-items: flex-start;
+          font-weight: 400;
+          font-size: 18px;
+          &::before{
+            content: '';
+            display: inline-block;
+            flex-shrink: 0;
+            margin-top: 8px;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: #000000;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  } 
+}
+.line-center{
+  margin: 0  var(--p110);
+  padding-bottom: 1.25rem;
+  border-top: 1px solid #b9b9b9;
+}
+
+@media (max-width: 800px) {
+  .college-head{
+    flex-direction: column;
+    .contact-us{
+      width: 100%;
+    }
+  }
+  .report-box{
+    .report-title{
+      font-weight: 400;
+    }
+    .report-content{
+      flex-direction: column;
+      .report-item{
+        + .report-item{
+          margin-top: var(--p60);
+        }
+      }
+    }
+  }
+  .admissions-box{
+    flex-direction: column;
+    .admissions-img{
+      width: 100%;
+    }
+    .admissions-right{
+      margin-top: var(--p40);
+      margin-left: 5%;
+      .right-title{
+        font-weight: 400;
+      }
+    }
+  }
+  .thinking-about {
+    .thinking-box{
+      flex-direction: column;
+      align-items: center;
+      .thinking-img{
+        width: 100%;
+      }
+      .thinking-right{
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+        .title-1{
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  .our-secret {
+    .secret-box {
+      flex-direction: column;
+      .secret-img{
+        width: 100%;
+      }
+      .secret-right{
+        margin-left: 0;
+        .title-1{
+          margin-top: var(--p40);
+        }
+      }
+    }
+  } 
+}
+@media (max-width: 1150px) {
+  .admitted-bottom {
+    flex-direction: column;
+  }
+}
