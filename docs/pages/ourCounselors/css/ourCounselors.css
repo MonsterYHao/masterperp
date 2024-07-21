@@ -1,0 +1,105 @@
+.college-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 18.75rem;
+  padding: 0 var(--p40);
+  background-image: url("../img/banner_OurCounselors.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.college-head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, #071218 100%);
+  opacity: 0.9;
+  z-index: 1;
+}
+.college-head .college-title {
+  z-index: 2;
+  font-family: Roboto-Medium;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.counselors-item {
+  display: flex;
+  align-items: center;
+  padding: var(--p60) var(--p40);
+}
+.counselors-item .counselors-img {
+  width: 26%;
+}
+.counselors-item .counselors-info {
+  margin-left: 3.12rem;
+}
+.counselors-item .counselors-info .item-name {
+  font-family: Roboto-Regular;
+  font-size: 45px;
+  color: #000000;
+}
+.counselors-item .counselors-info .title-bule {
+  margin: 10px 0 23px;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #1390CF;
+}
+.counselors-item .counselors-info .title-1 {
+  font-family: Roboto-Medium;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+.counselors-item .counselors-info .title-1.mt15 {
+  margin-top: 15px;
+}
+.counselors-item .counselors-info .title-2 {
+  font-size: 20px;
+  color: #000000;
+}
+.counselors-item .counselors-info .title-items {
+  margin-top: 1.5rem;
+}
+.counselors-item .counselors-info .title-items .items-txt {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 20px;
+}
+.counselors-item .counselors-info .title-items .items-txt::before {
+  content: "";
+  display: inline-block;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  background: #000000;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+
+.line-center {
+  margin: 0 5%;
+  border-top: 1px solid #b9b9b9;
+}
+
+@media (max-width: 800px) {
+  .counselors-item {
+    flex-direction: column;
+  }
+  .counselors-item .counselors-img {
+    width: 100%;
+  }
+  .counselors-item .counselors-info {
+    margin-left: 0;
+    margin-top: var(--p40);
+  }
+}/*# sourceMappingURL=ourCounselors.css.map */

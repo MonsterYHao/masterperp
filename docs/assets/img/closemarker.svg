@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn_close_corner marker </title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1374.000000, -650.000000)">
+            <g id="编组-7" transform="translate(1124.000000, 650.000000)">
+                <g id="信息展示:5/卡片:4/默认:1" transform="translate(0.000000, 0.000000)">
+                    <g id="编组-66" transform="translate(250.000000, -0.000000)">
+                        <g id="tab角标" transform="translate(25.000000, 25.000000) rotate(-90.000000) translate(-25.000000, -25.000000) translate(-0.000000, 0.000000)">
+                            <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="14" y="14" width="36" height="36"></rect>
+                            <g id="编组-65" transform="translate(0.000000, 0.000000)">
+                                <path d="M50,7.28788642e-15 L50,38 C50,44.627417 44.627417,50 38,50 L0,50 L0,50 L50,7.28788642e-15 Z" id="形状结合" fill="#1390CF"></path>
+                                <path d="M38.7894737,27 L41,29.2105263 L36.21,33.999 L41,38.7894737 L38.7894737,41 L33.999,36.21 L29.2105263,41 L27,38.7894737 L31.789,34 L27,29.2105263 L29.2105263,27 L34,31.789 L38.7894737,27 Z" id="形状结合" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

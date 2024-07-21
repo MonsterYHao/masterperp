@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>masterperp</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
   </head>
   <body>
     <!-- head -->
@@ -23,10 +23,10 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link pl30 active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link pl30" aria-current="page" href="home.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <a class="nav-link dropdown-toggle" href="javascript:;" aria-expanded="false">Services</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./pages/collegeCounsel/collegeCounsel.html">College Counseling</a></li>
                 <li><a class="dropdown-item" href="./pages/bmu/bmu.html">Build Me Up</a></li>
@@ -35,7 +35,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+              <a class="nav-link dropdown-toggle" href="javascript:;" aria-expanded="false">About Us</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./pages/companyOverview/companyOverview.html">Company Overview</a></li>
                 <li><a class="dropdown-item" href="./pages/ourCounselors/ourCounselors.html">Our Counselors</a></li>
@@ -44,12 +44,12 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Locations</a>
+              <a class="nav-link dropdown-toggle" href="javascript:;" aria-expanded="false">Locations</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./pages/locations/locations.html">View all Locations</a></li>
-                <li><a class="dropdown-item" href="./pages/locationsDetail/locationsDetail.html">Irvine, CA</a></li>
-                <li><a class="dropdown-item" href="#">Pasadena, CA</a></li>
-                <li><a class="dropdown-item" href="#">Yorba Linda, CA</a></li>
+                <li><a class="dropdown-item" href="./pages/locationsDetail/irvine.html">Irvine, CA</a></li>
+                <li><a class="dropdown-item" href="./pages/locationsDetail/pasadena.html">Pasadena, CA</a></li>
+                <li><a class="dropdown-item" href="./pages/locationsDetail/linda.html">Yorba Linda, CA</a></li>
                 <li><a class="dropdown-item" href="#">Bellevue, WA</a></li>
                 <li><a class="dropdown-item" href="#">Washington D.C.</a></li>
                 <li><a class="dropdown-item" href="#">Beijing, China</a></li>
@@ -57,8 +57,9 @@
                 <li><a class="dropdown-item" href="#">West LA, CA</a></li>
               </ul>
             </li>
+            <!-- data-bs-toggle="dropdown" -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle language" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle language" href="javascript:;" aria-expanded="false">
                 中文
               </a>
               <ul class="dropdown-menu language-menu">
@@ -72,38 +73,45 @@
       </div>
     </nav>
     <!-- banner -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- <img src="./assets/img/home/banner.png" class="img-fluid"> -->
+          <div class="banner-txt">
+            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
+            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <img src="./assets/img/home/banner.png" class="img-fluid"> -->
+          <div class="banner-txt">
+            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
+            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <img src="./assets/img/home/banner.png" class="img-fluid"> -->
+          <div class="banner-txt">
+            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
+            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <img src="./assets/img/home/banner.png" class="img-fluid"> -->
+          <div class="banner-txt">
+            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
+            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <img src="./assets/img/home/banner.png" class="img-fluid"> -->
+          <div class="banner-txt">
+            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
+            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
+          </div>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./assets/img/home/banner.png" class="img-fluid banner-img">
-          <!-- <div class="image ct-bg-1"></div> -->
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
-            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!-- <div class="image ct-bg-2"></div> -->
-          <img src="./assets/img/home/banner.png" class="img-fluid">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
-            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!-- <div class="image ct-bg-3"></div> -->
-          <img src="./assets/img/home/banner.png" class="img-fluid">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="banner-title">Tutoring That Fits Your Schedule</h5>
-            <p class="title-tip">GPAs and managing your classes can be overwhelming, but it doesn't have to be. We guide our students to pursue excellence in all that they do.</p>
-          </div>
-        </div>
-      </div>
+      <div class="swiper-pagination"></div>
     </div>
     <div class="our-services index-page-content">
       <!-- title -->
@@ -113,7 +121,7 @@
       <div class="services-item">
         <img src="./assets/img/home/COLLEGECOUNSELING.png" class="img-fluid">
         <div class="item-introduce">
-          <span class="introduce-title">COLLEGE COUNSELING</span>
+          <a class="introduce-title" href="./pages/collegeCounsel/collegeCounsel.html">COLLEGE COUNSELING</a>
           <span class="content-title">Admissions Made Easier</span>
           <p class="content-txt">Masterprep Academy counselors guide students in crafting highly competitive applications. You only get one shot at the application, so leave it to the professionals.</p>
         </div>
@@ -121,7 +129,7 @@
       <div class="services-item">
         <img src="./assets/img/home/buildMeUp.png" class="img-fluid">
         <div class="item-introduce">
-          <span class="introduce-title">Build Me Up</span>
+          <a class="introduce-title" href="./pages/bmu/bmu.html">Build Me Up</a>
           <span class="content-title">Maximize Your Potential</span>
           <p class="content-txt">Failing to plan is planning to fail. Our students organically strategize and develop their academic and career skills for life from as early as middle school with the help of our counselors.</p>
         </div>
@@ -129,7 +137,7 @@
       <div class="services-item">
         <img src="./assets/img/home/TESTPREP.png" class="img-fluid">
         <div class="item-introduce">
-          <span class="introduce-title">TEST PREP</span>
+          <a class="introduce-title" href="./pages/testPrep/testPrep.html">TEST PREP</a>
           <span class="content-title">Better Scores in Less Time</span>
           <p class="content-txt">SAT, ACT, ISEE, and other standardized tests are feeling more important than ever. Find out how our students stay ahead of the curve in record time.</p>
         </div>
@@ -137,7 +145,7 @@
       <div class="services-item">
         <img src="./assets/img/home/TUTORING.png" class="img-fluid">
         <div class="item-introduce">
-          <span class="introduce-title">TUTORING</span>
+          <a class="introduce-title" href="./pages/tutoring/tutoring.html">TUTORING</a>
           <span class="content-title">Master Your Classes</span>
           <p class="content-txt">Masterprep Academy students consistently score higher in their classes. Personalized lessons, top-tier instructors, and proprietary curriculum give our students an edge in class.</p>
         </div>
@@ -148,23 +156,19 @@
       <div class="programs-title">Featured Programs</div>
       <div class="programs-box index-page-content">
         <div class="programs-item programs-bg-1">
-          <!-- <img src="./assets/img/home/pic1.png" class="img-fluid programs-img"> -->
           <div class="item-title">Digital SAT Summer Boot Camp</div>
-          <p class="item-time">Summer 2024 June 14-August 2</p>
-          <!-- <div class="programs-txt">
-            <p class="item-title">Digital SAT Summer Boot Camp</p>
-            <p class="item-time">Summer 2024 June 14-August 2</p>
-          </div> -->
+          <p class="item-time">Summer</p>
+          <p class="item-time">2024 June 14-August 2</p>
         </div>
         <div class="programs-item programs-bg-2">
-          <!-- <img src="./assets/img/home/pic2.png" class="img-fluid programs-img"> -->
           <p class="item-title">Machine learning program</p>
-          <p class="item-time">Summer 2024 June 14-August 2</p>
+          <p class="item-time">Summer</p>
+          <p class="item-time">2024 June 14-August 2</p>
         </div>
         <div class="programs-item programs-bg-3">
-          <!-- <img src="./assets/img/home/pic3.png" class="img-fluid programs-img"> -->
           <p class="item-title">Math Competition Club</p>
-          <p class="item-time">Summer 2024 June 14-August 2</p>
+          <p class="item-time">Summer</p>
+          <p class="item-time">2024 June 14-August 2</p>
         </div>
       </div>
     </div>
@@ -174,35 +178,35 @@
       <div class="counselors-title">Meet Our Counselors</div>
       <div class="counselors-box">
         <div class="counselors-item">
-          <img src="./assets/img/home/counselor_1.png" class="img-fluid">
+          <img src="./assets/img/AnnyC.png" class="img-fluid">
           <p class="item-name">Anny. C</p>
           <p class="item-tip">Chief College Counse</p>
         </div>
         <div class="counselors-item">
-          <img src="./assets/img/home/counselor_2.png" class="img-fluid">
+          <img src="./assets/img/WilliamR.png" class="img-fluid">
           <p class="item-name">William. R</p>
           <p class="item-tip">Chief College Counse</p>
         </div>
         <div class="counselors-item">
-          <img src="./assets/img/home/counselor_3.png" class="img-fluid">
-          <p class="item-name">Lia. T</p>
+          <img src="./assets/img/JonathanD.png" class="img-fluid">
+          <p class="item-name">Jonathan. D</p>
           <p class="item-tip">Chief College Counse</p>
         </div>
       </div>
       <div class="counselors-box">
         <div class="counselors-item">
-          <img src="./assets/img/home/counselor_4.png" class="img-fluid">
-          <p class="item-name">Jonathan. D</p>
+          <img src="./assets/img/LiaT.png" class="img-fluid">
+          <p class="item-name">Lia. T</p>
           <p class="item-tip">Chief College Counse</p>
         </div>
         <div class="counselors-item">
-          <img src="./assets/img/home/counselor_5.png" class="img-fluid">
+          <img src="./assets/img/NicholasC.png" class="img-fluid">
           <p class="item-name">Nicholas. C</p>
           <p class="item-tip">Chief College Counse</p>
         </div>
         <div class="counselors-item">
-          <img src="./assets/img/home/counselor_6.png" class="img-fluid">
-          <p class="item-name">Angela. Y</p>
+          <img src="./assets/img/DavidL.png" class="img-fluid">
+          <p class="item-name">David. L</p>
           <p class="item-tip">Chief College Counse</p>
         </div>
       </div>
@@ -235,26 +239,6 @@
           </li>
         </ul>
       </div>
-      <!-- <div class="campus-slider owl-carousel owl-theme">
-          <div class="campus-card" data-aos="fade-up" data-aos-delay="100">
-            <img src="./assets/img/home/logo_1.png" alt="image">
-          </div>
-          <div class="campus-card" data-aos="fade-up" data-aos-delay="200">
-            <img src="./assets/img/home/logo_2.png" alt="image">
-          </div>
-          <div class="campus-card" data-aos="fade-up" data-aos-delay="300">
-            <img src="./assets/img/home/logo_3.png" alt="image">
-          </div>
-          <div class="campus-card" data-aos="fade-up" data-aos-delay="400">
-            <img src="./assets/img/home/logo_4.png" alt="image">
-          </div>
-          <div class="campus-card" data-aos="fade-up" data-aos-delay="500">
-            <img src="./assets/img/home/logo_5.png" alt="image">
-          </div>
-          <div class="campus-card" data-aos="fade-up" data-aos-delay="600">
-            <img src="./assets/img/home/logo_6.png" alt="image">
-          </div>
-      </div> -->
     </div>
 
     <div class="admitted-students bg-w">
@@ -278,23 +262,19 @@
           </li>
         </ul>
       </div>
-      <!-- <div class="campus-slider owl-carousel owl-theme">
-          <div class="campus-card admissions" data-aos="fade-up" data-aos-delay="100">
-            <img src="./assets/img/home/good news_1.png" alt="image">
-          </div>
-          <div class="campus-card admissions" data-aos="fade-up" data-aos-delay="200">
-            <img src="./assets/img/home/good news_2.png" alt="image">
-          </div>
-          <div class="campus-card admissions" data-aos="fade-up" data-aos-delay="300">
-            <img src="./assets/img/home/good news_3.png" alt="image">
-          </div>
-          <div class="campus-card admissions" data-aos="fade-up" data-aos-delay="400">
-            <img src="./assets/img/home/good news_4.png" alt="image">
-          </div>
-          <div class="campus-card admissions" data-aos="fade-up" data-aos-delay="500">
-            <img src="./assets/img/home/good news_5.png" alt="image">
-          </div>
-      </div> -->
+    </div>
+
+    <!-- bookNow -->
+    <div class="book-now" id="bookNow">
+      <p class="book-title">BOOK YOUR FREE CONSULTATION</p>
+      <a href="#" class="btn-box">
+        <button type="button" class="book-btn">
+          BOOK NOW
+        </button>
+      </a>
+      <div class="book-close" id="bookClose">
+        <img src="./assets/img/closemarker.svg" class="img-fluid">
+      </div>
     </div>
     <!-- footer -->
     <div class="footer-content">
@@ -303,6 +283,9 @@
           <div class="footer-title">ABOUT US</div>
           <div class="footer-item">
             <a href="./pages/companyOverview/companyOverview.html">Company Overview</a>
+          </div>
+          <div class="footer-item">
+            <a href="./pages/ourCounselors/ourCounselors.html">Our Counselors</a>
           </div>
           <div class="footer-item">
             <a href="#">Our Leadership</a>
@@ -317,6 +300,9 @@
             <a href="./pages/collegeCounsel/collegeCounsel.html">College Counseling</a>
           </div>
           <div class="footer-item">
+            <a href="./pages/bmu/bmu.html">Build Me Up</a>
+          </div>
+          <div class="footer-item">
             <a href="./pages/testPrep/testPrep.html">Test Prep</a>
           </div>
           <div class="footer-item">
@@ -326,13 +312,13 @@
         <div class="col-item">
           <div class="footer-title">LOCATIONS</div>
           <div class="footer-item">
-            <a href="./pages/locationsDetail/locationsDetail.html">Irvine, CA</a>
+            <a href="./pages/locationsDetail/irvine.html">Irvine, CA</a>
           </div>
           <div class="footer-item">
-            <a href="#">San Jose, CA</a>
+            <a href="./pages/locationsDetail/pasadena.html">Pasadena, CA</a>
           </div>
           <div class="footer-item">
-            <a href="#">Yorba Linda, CAs</a>
+            <a href="./pages/locationsDetail/linda.html">Yorba Linda, CA</a>
           </div>
           <div class="footer-item">
             <a href="#">Bellevue, WA</a>
@@ -343,16 +329,35 @@
           <div class="footer-item">
             <a href="#">Beijing, China</a>
           </div>
-        </div>
-        <div class="col-item">
-          <div class="icon-box">
-            <img src="./assets/img/logo_facebook.svg" alt="" class="footer-icon">
-            <img src="./assets/img/logo_Instagram.svg" alt="" class="footer-icon">
-            <img src="./assets/img/logo_redbook.svg" alt="" class="footer-icon">
-            <img src="./assets/img/logo_wechat.svg" alt="" class="footer-icon">
-            <img src="./assets/img/logo_linked.svg" alt="" class="footer-icon">
+          <div class="footer-item disable">
+            <a>San Jose, CA</a>
           </div>
-          <button type="button" class="btn contact-us">CONTACT US</button>
+          <div class="footer-item disable">
+            <a>West LA, CA</a>
+          </div>
+        </div>
+        <div class="col-item col-item-last">
+          <div class="icon-box">
+            <a href="https://www.facebook.com/p/Masterprep	-Academy	-100064316850645" target="_blank">
+              <img src="./assets/img/logo_facebook.svg" alt="" class="footer-icon">
+            </a>
+            <a href="https://www.instagram.com/masterprepacademy/" target="_blank">
+              <img src="./assets/img/logo_Instagram.svg" alt="" class="footer-icon">
+            </a>
+            <a href="https://www.xiaohongshu.com/user/profile/645ef6ac0000000010029138" target="_blank">
+              <img src="./assets/img/logo_redbook.svg" alt="" class="footer-icon">
+            </a>
+            <div class="wx-box">
+              <img src="./assets/img/logo_wechat.svg" alt="" class="footer-icon">
+              <img src="./assets/img/wxCode.jpg" alt="" class="wx-icon">
+            </div>
+            <a href="https://www.linkedin.com/company/masterprep	-academy/" target="_blank">
+              <img src="./assets/img/logo_linked.svg" alt="" class="footer-icon">
+            </a>
+          </div>
+          <a href="./pages/contactUs/contactUs.html">
+            <button type="button" class="btn contact-us">CONTACT US</button>
+          </a>
           <div class="footer-item mt24">Headquarters</div>
           <div class="footer-item">
             <img src="./assets/img/icon_email.svg" alt="" class="footer-icon-sm">
@@ -360,7 +365,7 @@
           </div>
           <div class="footer-item">
             <img src="./assets/img/icon_phone.svg" alt="" class="footer-icon-sm">
-            (949) 336-6646
+            +1(949)336-6646 
           </div>
           <div class="footer-item">
             <img src="./assets/img/icon_location.svg" alt="" class="footer-icon-sm">
@@ -372,7 +377,8 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="./assets/js/home.js"></script>
   </body>
 </html>

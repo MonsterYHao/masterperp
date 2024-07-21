@@ -1,0 +1,99 @@
+.svp-content{
+  padding: var(--p60) var(--p40);
+  display: flex;
+  justify-content: space-between;
+  .content-left{
+    padding: var(--p60) 8% var(--p60) 0;
+    flex: 2;
+    border-right: 1px solid #EEEEEE;
+    .svp-title{
+      font-family: Roboto-Medium;
+      font-weight: 600;
+      font-size: 46px;
+      color: #000000;
+      line-height: 53px;
+    }
+    .title-1{
+      margin-top: 32px;
+      font-weight: bold;
+      font-size: 32px;
+      color: #000000;
+    }
+    .title-2{
+      font-size: 20px;
+      color: #000000;
+    }
+  }
+  .content-right{
+    padding-left: 8%;
+    flex: 3;
+    .my-form{
+      .form-item{
+        +.form-item{
+          margin-top: 1.5rem;
+        }
+        input, .form-select{
+          height: var(--p60);
+          border-radius: 9px;
+          border: 1px solid #CCCCCC;
+          font-weight: 400;
+          font-size: 24px;
+          color: #000000;
+          &::placeholder{
+            font-weight: 400;
+            font-size: 24px;
+            color: #d8d8d8;
+          }
+        }
+        .form-content{
+          display: flex;
+          flex-direction: column;
+          .form-label{
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 24px;
+            &::before{
+              content: '*';
+              font-size: 24px;
+              color: #FF0000;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      .submit-box{
+        margin-top: 3.12rem;
+        text-align: left;
+      }
+      .submit-btn{
+        width: 70%;
+        height: 3.75rem;
+        background: #1390CF;
+        border-radius: 30px;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .svp-content{
+    flex-direction: column;
+    .content-left{
+      padding: 0;
+      border-right: none;
+    }
+    .content-right{
+      padding-left: 0;
+      margin-top: var(--p60);
+      .my-form{
+        .submit-box{
+          text-align: center;
+          .submit-btn{
+            width: 85%;
+          }
+        }
+      }
+    }
+  }
+}

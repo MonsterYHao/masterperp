@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>masterperp</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/swiper-bundle.min.css"/>
+    <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="./css/locationsDetail.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- head -->
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+      <div class="container-fluid content-head">
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/img/home/logo.png" class="img-fluid logo">
+        </a>
+        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link pl30" aria-current="page" href="../../home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:;" aria-expanded="false">Services</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../pages/collegeCounsel/collegeCounsel.html">College Counseling</a></li>
+                <li><a class="dropdown-item" href="../../pages/bmu/bmu.html">Build Me Up</a></li>
+                <li><a class="dropdown-item" href="../../pages/testPrep/testPrep.html">Test Prep</a></li>
+                <li><a class="dropdown-item" href="../../pages/tutoring/tutoring.html">Tutoring</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:;" aria-expanded="false">About Us</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../pages/companyOverview/companyOverview.html">Company Overview</a></li>
+                <li><a class="dropdown-item" href="../../pages/ourCounselors/ourCounselors.html">Our Counselors</a></li>
+                <li><a class="dropdown-item" href="#">Our Leadership</a></li>
+                <li><a class="dropdown-item" href="../../pages/careers/careers.html">Careers & Internship</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:;" aria-expanded="false">Locations</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../pages/locations/locations.html">View all Locations</a></li>
+                <li><a class="dropdown-item" href="../../pages/locationsDetail/irvine.html">Irvine, CA</a></li>
+                <li><a class="dropdown-item" href="../../pages/locationsDetail/pasadena.html">Pasadena, CA</a></li>
+                <li><a class="dropdown-item" href="../../pages/locationsDetail/linda.html">Yorba Linda, CA</a></li>
+                <li><a class="dropdown-item" href="#">Bellevue, WA</a></li>
+                <li><a class="dropdown-item" href="#">Washington D.C.</a></li>
+                <li><a class="dropdown-item" href="#">Beijing, China</a></li>
+                <li><a class="dropdown-item" href="#">San Jose, CA</a></li>
+                <li><a class="dropdown-item" href="#">West LA, CA</a></li>
+              </ul>
+            </li>
+            <!-- data-bs-toggle="dropdown" -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle language" href="javascript:;" aria-expanded="false">
+                中文
+              </a>
+              <ul class="dropdown-menu language-menu">
+                <li><a class="dropdown-item" href="#">中文</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="college-head">
+      <div class="college-left">
+        <p class="title">Irvine , CA</p>
+        <div class="location-code">
+          <img src="./img/BellevueWA.jpg" class="img-fluid code-img"/>
+          <p class="code-txt">Schedule a free consultation to find out how we can help you reach your college goals.</p>
+        </div>
+      </div>
+      <div class="college-top">
+        <div class="location-code">
+          <p class="title">Irvine , CA</p>
+          <p class="code-txt">Schedule a free consultation to find out how we can help you reach your college goals.</p>
+        </div>
+        <img src="./img/BellevueWA.jpg" class="img-fluid code-img"/>
+      </div>
+      <a href="#contactUs" class="contact-us-box">
+        <button type="button" class="contact-us">Contact Us</button>
+      </a>
+    </div>
+    <!-- content -->
+    <div class="location-content index-page-content">
+      <!-- address -->
+      <div class="location-address">
+        <div class="address">
+          <div id="map"></div>
+        </div>
+        <div class="address-right">
+          <div class="address-info">
+            <p>830 Roosevelt Ste 200</p>
+            <p>Irvine, CA 92620</p>
+          </div>
+          <div class="address-info">
+            <p>+1(949)336-6646</p>
+            <p>franchise.corporate@masterprepacademy.com</p>
+          </div>
+        </div>
+      </div>
+      <!-- Hours -->
+      <div class="location-hours">
+        <div class="hours-box">
+          <p class="hours-title">Hours</p>
+          <div class="hours-item">
+            <p class="hours-info">Monday</p>
+            <p class="hours-info">12:00 am - 9:00 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Tuesday</p>
+            <p class="hours-info">12:00 am - 9:00 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Wednesday</p>
+            <p class="hours-info">12:00 am - 9:00 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Thursday</p>
+            <p class="hours-info">12:00 am - 9:00 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Friday</p>
+            <p class="hours-info">12:00 am - 9:00 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Saturday</p>
+            <p class="hours-info">10:00 am - 5:30 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Sunday</p>
+            <p class="hours-info">Closed</p>
+          </div>
+        </div>
+        <div class="hours-box ml40">
+          <p class="hours-title">Summer / Winter</p>
+          <div class="hours-item">
+            <p class="hours-info">Monday</p>
+            <p class="hours-info">9:00 am - 6:30 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Tuesday</p>
+            <p class="hours-info">9:00 am - 6:30 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Wednesday</p>
+            <p class="hours-info">9:00 am - 6:30 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Thursday</p>
+            <p class="hours-info">9:00 am - 6:30 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Friday</p>
+            <p class="hours-info">9:00 am - 6:30 pm</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Saturday</p>
+            <p class="hours-info">Closed</p>
+          </div>
+          <div class="hours-item">
+            <p class="hours-info">Sunday</p>
+            <p class="hours-info">Closed</p>
+          </div>
+        </div>
+      </div>
+      <div class="line-center"></div>
+      <div class="programs-box">
+        <div class="programs-bg">2024 Summer Programs</div>
+        <div class="programs-content">
+          <img src="./img/pic_summer_1.png" class="img-fluid camp-img"/>
+          <img src="./img/pic_spring_2.png" class="img-fluid camp-img"/>
+          <img src="./img/pic_spring_2.png" class="img-fluid camp-img"/>
+          <img src="./img/pic_spring_2.png" class="img-fluid camp-img"/>
+        </div>
+      </div>
+      <div class="programs-box">
+        <div class="programs-bg bg2">2024 Spring Programs</div>
+        <div class="programs-content">
+          <img src="./img/pic_spring_1.png" class="img-fluid camp-img"/>
+          <img src="./img/pic_spring_2.png" class="img-fluid camp-img"/>
+          <img src="./img/pic_spring_2.png" class="img-fluid camp-img"/>
+          <img src="./img/pic_spring_2.png" class="img-fluid camp-img"/>
+        </div>
+      </div>
+      <div class="line-center"></div>
+    </div>
+    <!-- meet-our-team -->
+    <div class="meet-our-team">
+      <p class="meet-title">Meet Our Irvine Team</p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/AngelaY.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/AnnyC.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/DavidL.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/JonathanD.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/LiaT.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/NicholasC.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./img/WilliamR.png" class="img-fluid team-img"/>
+              <p class="title-1">Julia Cho</p>
+              <p class="title-2">Irvine Campus Direct</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <!-- Contact Us form -->
+    <div class="contact-form" id="contactUs">
+      <p class="form-title">Contact Us</p>
+      <p class="title-tip">Get in touch with us by filling out the form below including any questions you have, and we'll get back to you as soon as possible with detail information.</p>
+      <form class="row g-1 needs-validation my-form" novalidate>
+        <div class="form-item">
+          <div class="form-content">
+            <label for="validationCustom01" class="form-label">Student Name</label>
+            <input type="text" class="form-control input-first" id="validationCustom01" value="" placeholder="First" required>
+            <input type="text" class="form-control input-Last" id="validationCustom02" value="" placeholder="Last" required>
+          </div>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="form-content">
+            <label for="validationCustom02" class="form-label">Location</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Irvine , CA</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="form-content">
+            <label for="validationCustom03" class="form-label">Current Grade</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Irvine , CA</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="form-content">
+            <label for="validationCustom04" class="form-label">Email</label>
+            <input type="email" class="form-control" id="validationCustomEmail" required>
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="form-content">
+            <label for="validationCustom05" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="validationCustomPhone" required>
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="form-content">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Let us know how we can help you reach your academic goals"></textarea>
+          </div>
+        </div>
+        <div class="col-12 submit-box">
+          <button class="btn submit-btn" type="submit">SUBMIT</button>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <div class="footer-content">
+      <div class="row-box index-page-content">
+        <div class="col-item">
+          <div class="footer-title">ABOUT US</div>
+          <div class="footer-item">
+            <a href="../../pages/companyOverview/companyOverview.html">Company Overview</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/ourCounselors/ourCounselors.html">Our Counselors</a>
+          </div>
+          <div class="footer-item">
+            <a href="#">Our Leadership</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/careers/careers.html">Careers & Internships</a>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="footer-title">SERVICES</div>
+          <div class="footer-item">
+            <a href="../../pages/collegeCounsel/collegeCounsel.html">College Counseling</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/bmu/bmu.html">Build Me Up</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/testPrep/testPrep.html">Test Prep</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/tutoring/tutoring.html">Tutoring</a>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="footer-title">LOCATIONS</div>
+          <div class="footer-item">
+            <a href="../../pages/locationsDetail/irvine.html">Irvine, CA</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/locationsDetail/pasadena.html">Pasadena, CA</a>
+          </div>
+          <div class="footer-item">
+            <a href="../../pages/locationsDetail/linda.html">Yorba Linda, CA</a>
+          </div>
+          <div class="footer-item">
+            <a href="#">Bellevue, WA</a>
+          </div>
+          <div class="footer-item">
+            <a href="#">Washington D.C.</a>
+          </div>
+          <div class="footer-item">
+            <a href="#">Beijing, China</a>
+          </div>
+          <div class="footer-item disable">
+            <a>San Jose, CA</a>
+          </div>
+          <div class="footer-item disable">
+            <a>West LA, CA</a>
+          </div>
+        </div>
+        <div class="col-item col-item-last">
+          <div class="icon-box">
+            <a href="https://www.facebook.com/p/Masterprep	-Academy	-100064316850645" target="_blank">
+              <img src="../../assets/img/logo_facebook.svg" alt="" class="footer-icon">
+            </a>
+            <a href="https://www.instagram.com/masterprepacademy/" target="_blank">
+              <img src="../../assets/img/logo_Instagram.svg" alt="" class="footer-icon">
+            </a>
+            <a href="https://www.xiaohongshu.com/user/profile/645ef6ac0000000010029138" target="_blank">
+              <img src="../../assets/img/logo_redbook.svg" alt="" class="footer-icon">
+            </a>
+            <div class="wx-box">
+              <img src="../../assets/img/logo_wechat.svg" alt="" class="footer-icon">
+              <img src="../../assets/img/wxCode.jpg" alt="" class="wx-icon">
+            </div>
+            <a href="https://www.linkedin.com/company/masterprep	-academy/" target="_blank">
+              <img src="../../assets/img/logo_linked.svg" alt="" class="footer-icon">
+            </a>
+          </div>
+          <a href="../../pages/contactUs/contactUs.html">
+            <button type="button" class="btn contact-us">CONTACT US</button>
+          </a>
+          <div class="footer-item mt24">Headquarters</div>
+          <div class="footer-item">
+            <img src="../../assets/img/icon_email.svg" alt="" class="footer-icon-sm">
+            <p class="txt">franchise.corporate@masterprepacademy.com</p>
+          </div>
+          <div class="footer-item">
+            <img src="../../assets/img/icon_phone.svg" alt="" class="footer-icon-sm">
+            +1(949)336-6646 
+          </div>
+          <div class="footer-item">
+            <img src="../../assets/img/icon_location.svg" alt="" class="footer-icon-sm">
+            830 Roosevelt STE 200. Irvine, CA 92620
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/swiper-bundle.min.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="./js/locationsDetail.js"></script>
+  </body>
+</html>

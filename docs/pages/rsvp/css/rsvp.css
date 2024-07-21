@@ -1,0 +1,99 @@
+.svp-content {
+  padding: var(--p60) var(--p40);
+  display: flex;
+  justify-content: space-between;
+}
+.svp-content .content-left {
+  padding: var(--p60) 8% var(--p60) 0;
+  flex: 2;
+  border-right: 1px solid #EEEEEE;
+}
+.svp-content .content-left .svp-title {
+  font-family: Roboto-Medium;
+  font-weight: 600;
+  font-size: 46px;
+  color: #000000;
+  line-height: 53px;
+}
+.svp-content .content-left .title-1 {
+  margin-top: 32px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+}
+.svp-content .content-left .title-2 {
+  font-size: 20px;
+  color: #000000;
+}
+.svp-content .content-right {
+  padding-left: 8%;
+  flex: 3;
+}
+.svp-content .content-right .my-form .form-item + .form-item {
+  margin-top: 1.5rem;
+}
+.svp-content .content-right .my-form .form-item input, .svp-content .content-right .my-form .form-item .form-select {
+  height: var(--p60);
+  border-radius: 9px;
+  border: 1px solid #CCCCCC;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.svp-content .content-right .my-form .form-item input::-moz-placeholder, .svp-content .content-right .my-form .form-item .form-select::-moz-placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  color: #d8d8d8;
+}
+.svp-content .content-right .my-form .form-item input::placeholder, .svp-content .content-right .my-form .form-item .form-select::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  color: #d8d8d8;
+}
+.svp-content .content-right .my-form .form-item .form-content {
+  display: flex;
+  flex-direction: column;
+}
+.svp-content .content-right .my-form .form-item .form-content .form-label {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.svp-content .content-right .my-form .form-item .form-content .form-label::before {
+  content: "*";
+  font-size: 24px;
+  color: #FF0000;
+  margin-right: 8px;
+}
+.svp-content .content-right .my-form .submit-box {
+  margin-top: 3.12rem;
+  text-align: left;
+}
+.svp-content .content-right .my-form .submit-btn {
+  width: 70%;
+  height: 3.75rem;
+  background: #1390CF;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+  .svp-content {
+    flex-direction: column;
+  }
+  .svp-content .content-left {
+    padding: 0;
+    border-right: none;
+  }
+  .svp-content .content-right {
+    padding-left: 0;
+    margin-top: var(--p60);
+  }
+  .svp-content .content-right .my-form .submit-box {
+    text-align: center;
+  }
+  .svp-content .content-right .my-form .submit-box .submit-btn {
+    width: 85%;
+  }
+}/*# sourceMappingURL=rsvp.css.map */

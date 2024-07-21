@@ -1,0 +1,341 @@
+.college-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 18.75rem;
+  padding: 0 var(--p40);
+  background-image: url("../img/banner_aboutus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.college-head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, #071218 100%);
+  opacity: 0.9;
+  z-index: 1;
+}
+.college-head .college-title {
+  z-index: 2;
+  font-family: Roboto-Medium;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.intro {
+  text-align: center;
+  padding: var(--p60) var(--p40) 0;
+  font-family: Roboto-Medium;
+  font-weight: 600;
+  font-size: 38px;
+  color: #000000;
+  line-height: 43px;
+}
+
+.line-center {
+  margin: var(--p60) 5%;
+  border-top: 1px solid #b9b9b9;
+}
+
+.admissions-box {
+  padding: 0 var(--p40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admissions-box.mt60 {
+  margin-top: var(--p60);
+}
+.admissions-box .admissions-img-mobie {
+  display: none;
+  width: 100%;
+}
+.admissions-box .admissions-img, .admissions-box .admissions-img-1 {
+  width: 45%;
+}
+.admissions-box .admissions-right {
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.admissions-box .admissions-right.left {
+  margin-left: 0;
+  margin-right: 6%;
+}
+.admissions-box .admissions-right .right-title {
+  line-height: 50px;
+  font-family: Roboto-Medium;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000;
+}
+.admissions-box .admissions-right .title-1 {
+  margin-top: 10px;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #000000;
+}
+
+.tutor-bootm {
+  padding: 0 var(--p40);
+  display: flex;
+  justify-content: space-between;
+}
+.tutor-bootm .tutor-item {
+  width: 33.33%;
+  text-align: center;
+}
+.tutor-bootm .tutor-item .tutor-img {
+  width: 10rem;
+}
+.tutor-bootm .tutor-item .txt-center {
+  line-height: 50px;
+  font-family: Roboto-Regular;
+  font-weight: normal;
+  font-size: 40px;
+  color: #000000;
+}
+.tutor-bootm .tutor-item .txt-bottom {
+  margin-top: 10px;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #000000;
+}
+
+.core-title {
+  text-align: center;
+  font-family: Roboto-Medium;
+  font-weight: bold;
+  font-size: 45px;
+  color: #000000;
+}
+
+.our-core {
+  margin-top: 2.8rem;
+  padding: var(--p80) 13%;
+  background-image: url("../img/bg_blue.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.our-core .core-item + .core-item {
+  margin-top: var(--p60);
+}
+.our-core .core-item .item-title {
+  font-family: Roboto-Medium;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.our-core .core-item .item-txt {
+  margin-top: 10px;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.our-counselors {
+  padding: var(--p60) 5% 0;
+}
+.our-counselors .counselors-title {
+  text-align: center;
+  font-family: Roboto-Medium;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #000000;
+}
+.our-counselors .counselors-box {
+  display: flex;
+  justify-content: space-between;
+}
+.our-counselors .counselors-item {
+  margin-top: 2.5rem;
+  padding-bottom: var(--p40);
+  flex: 1;
+  margin-left: 2.5rem;
+  border-radius: 2px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.2);
+}
+.our-counselors .counselors-item:first-child {
+  margin-left: 0;
+}
+.our-counselors .counselors-item .item-name {
+  text-align: center;
+  font-family: Roboto-Medium;
+  font-weight: 900;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 1.87rem;
+}
+.our-counselors .counselors-item .item-tip {
+  text-align: center;
+  margin-top: 0.43rem;
+  font-family: Roboto, Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.our-counselors .more-btn {
+  margin-top: var(--p60);
+  text-align: center;
+}
+.our-counselors .more-btn .read-more {
+  width: 28%;
+  height: var(--p60);
+  font-family: Roboto-Regular;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 30px;
+  border: 1px solid #000000;
+}
+
+.our-secret {
+  padding: 0 var(--p40) var(--p60);
+}
+.our-secret .secret-title {
+  text-align: center;
+  font-family: Roboto-Medium;
+  font-weight: 900;
+  font-size: 45px;
+  color: #000000;
+}
+.our-secret .secret-box {
+  margin-top: var(--p40);
+  display: flex;
+  align-items: center;
+}
+.our-secret .secret-box + .secret-box {
+  border-top: 1px solid #b9b9b9;
+  padding-top: var(--p40);
+}
+.our-secret .secret-box .secret-img {
+  width: 45%;
+}
+.our-secret .secret-box .secret-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: var(--p40);
+  color: #000000;
+}
+.our-secret .secret-box .secret-right .title-1 {
+  line-height: 39px;
+  font-family: Roboto-Regular;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+}
+.our-secret .secret-box .secret-right .title-2 {
+  font-family: Roboto-Medium;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 18px;
+}
+.our-secret .secret-box .secret-right .title-3 {
+  margin-top: 10px;
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  color: #000000;
+}
+
+.join-team {
+  background: #eff7fc;
+  padding: 4.25rem 22%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join-team .join-title {
+  font-family: Roboto-Medium;
+  font-size: 46px;
+  color: #000000;
+  line-height: 53px;
+}
+.join-team .join-tip {
+  margin-top: 10px;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #000000;
+}
+.join-team .join-btn {
+  margin-top: var(--p60);
+  width: 45%;
+  height: var(--p60);
+  background: #1390CF;
+  border-radius: 30px;
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .college-head {
+    flex-direction: column;
+  }
+  .college-head .contact-us {
+    width: 100%;
+  }
+  .admissions-box {
+    flex-direction: column;
+  }
+  .admissions-box .admissions-img-mobie {
+    display: block;
+  }
+  .admissions-box .admissions-img-1 {
+    display: none;
+  }
+  .admissions-box .admissions-img {
+    width: 100%;
+  }
+  .admissions-box .admissions-right {
+    margin-left: 0;
+  }
+  .admissions-box .admissions-right .right-title {
+    margin-top: var(--p40);
+  }
+  .tutor-bootm {
+    flex-direction: column;
+  }
+  .tutor-bootm .tutor-item {
+    width: 100%;
+  }
+  .tutor-bootm .tutor-item + .tutor-item {
+    margin-top: var(--p40);
+  }
+  .counselors-box {
+    flex-direction: column;
+  }
+  .counselors-box .counselors-item {
+    margin-left: 0;
+  }
+  .our-counselors .more-btn .read-more {
+    width: 80%;
+  }
+  .our-secret .secret-box {
+    flex-direction: column;
+  }
+  .our-secret .secret-box .secret-img {
+    width: 100%;
+  }
+  .our-secret .secret-box .secret-right {
+    margin-left: 0;
+    margin-top: var(--p40);
+  }
+  .join-team .join-btn {
+    width: 80%;
+  }
+}/*# sourceMappingURL=companyOverview.css.map */

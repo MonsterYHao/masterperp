@@ -1,0 +1,376 @@
+/* index */
+.swiper .swiper-pagination-horizontal {
+  bottom: 8% !important;
+}
+.swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.swiper .swiper-pagination-bullet-active {
+  background: #FFFFFF;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 20px var(--p40);
+  min-height: 28.75rem;
+  background-image: url("../img/home/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper .swiper-wrapper .swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, #071218 100%);
+  opacity: 0.9;
+  z-index: 1;
+}
+.swiper .swiper-wrapper .swiper-slide .banner-txt {
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper .swiper-wrapper .swiper-slide .banner-txt .banner-title {
+  font-family: RobotoSlab-Bold;
+  font-weight: 600;
+  font-size: 60px;
+  color: #FFFFFF;
+  line-height: 75px;
+}
+.swiper .swiper-wrapper .swiper-slide .banner-txt .title-tip {
+  width: 60%;
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 26px;
+}
+
+.our-services {
+  padding: var(--p60) var(--p40) 0;
+}
+
+.title-1 {
+  text-align: center;
+  font-family: Roboto-Black;
+  font-weight: 900;
+  font-size: 46px;
+  color: #000000;
+}
+
+.title-2 {
+  margin-bottom: 0.62rem;
+  text-align: center;
+  font-family: Roboto-Medium;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.services-item {
+  margin-top: 1.87rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.services-item img {
+  width: 45%;
+}
+.services-item .item-introduce {
+  padding: 2.18rem 1.25rem 2.18rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.services-item .item-introduce .introduce-title {
+  font-family: Roboto-Black;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+  color: #000000;
+}
+.services-item .item-introduce .introduce-title:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+.services-item .item-introduce .content-title {
+  margin: 0.75rem 0 0.5rem;
+  font-family: Roboto-Medium;
+  font-weight: 500;
+  font-size: 20px;
+}
+.services-item .item-introduce .content-txt {
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.featured-programs {
+  margin-top: 3.75rem;
+  padding: 3.75rem var(--p40) 5.25rem;
+  background: #F5F7FA;
+}
+.featured-programs .programs-title {
+  font-family: Roboto-Black;
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+}
+.featured-programs .programs-box {
+  margin-top: 2.87rem;
+  display: flex;
+  justify-content: space-between;
+}
+.featured-programs .programs-box .programs-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  padding: 2.5rem 2.25rem 2.5rem;
+  border-radius: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.featured-programs .programs-box .programs-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #022942;
+  opacity: 0.6;
+  border-radius: 24px;
+  z-index: 1;
+}
+.featured-programs .programs-box .programs-item:first-child {
+  margin-left: 0;
+}
+.featured-programs .programs-box .programs-item .item-title {
+  max-width: 90%;
+  z-index: 2;
+  font-family: Roboto-Black;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 53px;
+  color: #FFFFFF;
+  word-wrap: break-word;
+}
+.featured-programs .programs-box .programs-item .item-time {
+  z-index: 2;
+  margin-top: 2.5rem;
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.featured-programs .programs-box .programs-item .item-time + .item-time {
+  margin-top: 0;
+}
+.featured-programs .programs-box .programs-bg-1 {
+  background-image: url("../img/home/pic1.png");
+}
+.featured-programs .programs-box .programs-bg-2 {
+  background-image: url("../img/home/pic2.png");
+}
+.featured-programs .programs-box .programs-bg-3 {
+  background-image: url("../img/home/pic3.png");
+}
+
+.our-counselors {
+  padding: 3.75rem var(--p40) 5rem;
+}
+.our-counselors .counselors-title {
+  font-family: Roboto-Black;
+  text-align: center;
+  font-weight: 900;
+  font-size: 46px;
+  color: #000000;
+}
+.our-counselors .counselors-box {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+.our-counselors .counselors-item {
+  /* width: 30%; */
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding-bottom: var(--p40);
+  margin-top: 2.5rem;
+  flex: 1;
+  margin-left: 2.5rem;
+  border-radius: 26px 26px 0 0;
+}
+.our-counselors .counselors-item:first-child {
+  margin-left: 0;
+}
+.our-counselors .counselors-item .item-name {
+  text-align: center;
+  font-family: Roboto-Black;
+  font-weight: 900;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 1.87rem;
+}
+.our-counselors .counselors-item .item-tip {
+  text-align: center;
+  margin-top: 0.43rem;
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.more-btn {
+  margin-top: 3.75rem;
+  text-align: center;
+}
+
+.read-more {
+  margin: 0 auto;
+  width: 24.6rem;
+  height: var(--p60);
+  font-family: Roboto, Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 30px;
+  border: 1px solid #000000;
+}
+
+.admitted-students {
+  padding: 3.75rem var(--p40) 5rem;
+  background: #F5F7FA;
+}
+.admitted-students.bg-w {
+  background: #ffffff;
+}
+.admitted-students .students-title {
+  margin: 0 auto 3.12rem;
+  width: 60%;
+  text-align: center;
+  font-family: RobotoSlab-Bold;
+  font-weight: 900;
+  font-size: 46px;
+  color: #000000;
+}
+
+.book-now {
+  z-index: 10;
+  padding: 30px 16px;
+  position: fixed;
+  top: 60%;
+  right: 16px;
+  width: 20%;
+  min-width: 216px;
+  background: #E2F1F9;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+.book-now.close {
+  display: none;
+}
+.book-now .book-title {
+  text-align: center;
+  font-family: Roboto-Black;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.book-now .btn-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  text-decoration: none;
+}
+.book-now .btn-box .book-btn {
+  width: 70%;
+  height: 100%;
+  border-radius: 24px;
+  border: 1px solid #000000;
+  font-family: Roboto-Black;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 24px;
+  background: none;
+}
+.book-now .book-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .swiper .swiper-wrapper .swiper-slide .banner-txt {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .swiper .swiper-wrapper .swiper-slide .banner-txt .banner-title {
+    line-height: 65px;
+  }
+  .swiper .swiper-wrapper .swiper-slide .banner-txt .title-tip {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .services-item {
+    flex-direction: column;
+  }
+  .services-item img {
+    width: 100%;
+  }
+  .featured-programs .programs-box {
+    flex-direction: column;
+  }
+  .featured-programs .programs-box .programs-item {
+    width: 100%;
+  }
+  .featured-programs .programs-box .programs-item + .programs-item {
+    margin-top: var(--p40);
+    margin-left: 0;
+  }
+  .featured-programs .programs-box .programs-item .item-title {
+    font-size: 45px !important;
+  }
+  .featured-programs .programs-box .programs-item .item-time {
+    font-size: 30px !important;
+  }
+  .counselors-box {
+    flex-direction: column;
+  }
+  .counselors-box .counselors-item {
+    margin-left: 0;
+  }
+  .read-more {
+    width: 80%;
+  }
+  .admitted-students .students-title {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1180px) {
+  .services-item {
+    padding-left: 1.25rem;
+  }
+}
+@media (max-width: 1300px) {
+  .featured-programs .programs-box .programs-item .item-title {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */

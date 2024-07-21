@@ -1,0 +1,348 @@
+.college-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 var(--p40);
+  height: 18.75rem;
+  background-image: url("../img/banner_college.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.college-head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, #071218 100%);
+  opacity: 0.9;
+  z-index: 1;
+}
+.college-head.bg-1 {
+  background-image: url("../img/banner_buildme up.png");
+}
+.college-head .college-title {
+  z-index: 2;
+  font-family: RobotoSlab, RobotoSlab;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+.college-head .contact-us-box {
+  z-index: 2;
+  width: 30%;
+  height: var(--p60);
+}
+.college-head .contact-us-box .contact-us {
+  width: 100%;
+  height: 100%;
+  background: #1390CF;
+  border-radius: 30px;
+  border: none;
+  font-family: Roboto-Regular;
+  font-weight: 900;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.admissions-box {
+  padding: var(--p60) var(--p40) var(--p80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admissions-box .admissions-img {
+  width: 40%;
+}
+.admissions-box .admissions-right {
+  margin-left: var(--p60);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.admissions-box .admissions-right .right-title {
+  font-family: Roboto-Bold;
+  line-height: 60px;
+  font-size: 46px;
+  color: #000000;
+}
+.admissions-box .admissions-right .right-item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+.admissions-box .admissions-right .right-item .item-point {
+  flex-shrink: 0;
+  margin-top: 8px;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background: #000000;
+}
+.admissions-box .admissions-right .right-item .item-txt {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.report-box .report-title {
+  font-family: Roboto-Bold;
+  padding: 0 var(--p40);
+  line-height: 54px;
+  margin-bottom: var(--p40);
+  text-align: center;
+  font-size: 46px;
+}
+.report-box .report-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 8%;
+  padding: var(--p60) 0;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+}
+.report-box .report-item {
+  text-align: center;
+}
+.report-box .report-item .item-top {
+  font-family: RobotoSlab, RobotoSlab;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.report-box .report-item .item-center {
+  margin-top: 0.5rem;
+  font-size: 24px;
+  color: #000000;
+}
+.report-box .report-item .item-center .left-txt {
+  font-weight: 900;
+}
+.report-box .report-item .item-img-box {
+  margin-top: 0.5rem;
+}
+.report-box .report-item .item-img-box .item-img {
+  width: 45px;
+}
+
+.admitted-students {
+  padding: 3.75rem 0 var(--p80);
+}
+.admitted-students .students-title {
+  padding: 0 var(--p40);
+  text-align: center;
+  font-family: Roboto-Bold;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 3.1rem;
+}
+.admitted-students .admitted-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 var(--p40);
+}
+.admitted-students .admitted-bottom .bottom-item {
+  margin-top: var(--p60);
+  text-align: center;
+}
+.admitted-students .admitted-bottom .bottom-item .item-1 {
+  line-height: 52px;
+  font-family: Roboto-Regular;
+  font-weight: normal;
+  font-size: 40px;
+  color: #000000;
+}
+.admitted-students .admitted-bottom .bottom-item .item-2 {
+  margin-top: 10px;
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.thinking-about {
+  padding: var(--p60) 0 0;
+  background: #F5F7FA;
+}
+.thinking-about .thinking-box {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  margin: var(--p40) auto 0;
+  padding: var(--p40) 4.06rem;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.thinking-about .thinking-box .thinking-img {
+  width: 40%;
+}
+.thinking-about .thinking-box .thinking-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8%;
+}
+.thinking-about .thinking-box .thinking-right .title-1 {
+  font-family: Roboto-Medium;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000;
+}
+.thinking-about .thinking-box .thinking-right .title-2 {
+  margin-top: 0.62rem;
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.thinking-about .thinking-box .thinking-right .rsvp-box {
+  margin-top: 2rem;
+  width: 85%;
+  height: 3.75rem;
+}
+.thinking-about .thinking-box .thinking-right .rsvp-box .rsvp-btn {
+  width: 100%;
+  height: 100%;
+  background: #1390CF;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.our-secret {
+  padding: var(--p40) var(--p40) var(--p80);
+}
+.our-secret .secret-box {
+  margin-top: var(--p40);
+  display: flex;
+  align-items: center;
+}
+.our-secret .secret-box + .secret-box {
+  border-top: 1px solid #b9b9b9;
+  padding-top: var(--p40);
+}
+.our-secret .secret-box .secret-img {
+  width: 45%;
+}
+.our-secret .secret-box .secret-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: var(--p40);
+  color: #000000;
+}
+.our-secret .secret-box .secret-right .title-1 {
+  line-height: 39px;
+  font-family: Roboto-Medium;
+  font-size: 30px;
+}
+.our-secret .secret-box .secret-right .title-2 {
+  font-family: Roboto-Medium;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 18px;
+}
+.our-secret .secret-box .secret-right .title-3 {
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.our-secret .secret-box .secret-right .title-items {
+  margin-top: 0.5rem;
+}
+.our-secret .secret-box .secret-right .title-items .items-txt {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 18px;
+}
+.our-secret .secret-box .secret-right .title-items .items-txt::before {
+  content: "";
+  display: inline-block;
+  flex-shrink: 0;
+  margin-top: 8px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #000000;
+  margin-right: 8px;
+}
+
+.line-center {
+  margin: 0 8%;
+  padding-bottom: 1.25rem;
+  border-top: 1px solid #b9b9b9;
+}
+
+@media (max-width: 800px) {
+  .college-head {
+    flex-direction: column;
+  }
+  .college-head .contact-us-box {
+    width: 100%;
+  }
+  .report-box .report-title {
+    font-weight: 400;
+  }
+  .report-box .report-content {
+    flex-direction: column;
+  }
+  .report-box .report-content .report-item + .report-item {
+    margin-top: var(--p60);
+  }
+  .admissions-box {
+    flex-direction: column;
+  }
+  .admissions-box .admissions-img {
+    width: 100%;
+  }
+  .admissions-box .admissions-right {
+    margin-top: var(--p40);
+    margin-left: 5%;
+  }
+  .admissions-box .admissions-right .right-title {
+    font-weight: 400;
+  }
+  .thinking-about .thinking-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .thinking-about .thinking-box .thinking-img {
+    width: 100%;
+  }
+  .thinking-about .thinking-box .thinking-right {
+    margin-left: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .thinking-about .thinking-box .thinking-right .title-1 {
+    margin-top: 2rem;
+  }
+  .our-secret .secret-box {
+    flex-direction: column;
+  }
+  .our-secret .secret-box .secret-img {
+    width: 100%;
+  }
+  .our-secret .secret-box .secret-right {
+    margin-left: 0;
+  }
+  .our-secret .secret-box .secret-right .title-1 {
+    margin-top: var(--p40);
+  }
+}
+@media (max-width: 1150px) {
+  .admitted-bottom {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=college.css.map */
